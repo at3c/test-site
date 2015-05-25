@@ -1,0 +1,98 @@
+/* General Styles*/
+
+body{
+	margin: 0;
+	font-size: 12px;
+	font-family: Tahoma, Geneva, sans-serif;
+	line-height: 20px;	
+	/*color: #FFFfff;*/
+}
+
+.nav, .portfolio, .about, 
+.get-in-touch, footer{
+	position: relative;
+	width: 1020px;
+	margin:0 auto;
+}
+
+/*Text style*/
+
+h1, h2{
+	font-weight: 300;
+	margin: 0;	
+}
+
+h1{
+	font-size: 30px;
+}
+
+h2{
+	font-size: 18px;
+	line-height: 30px;
+}
+
+a{
+	text-transform: uppercase;
+	text-decoration: none;
+
+}
+
+/* ---------------------
+	Navigation
+   --------------------- */
+
+.nav{			
+	height: 62px;
+	border: none;	
+	background-color: #323232;
+	text-align: center;	
+}
+
+.nav_list{
+	position: relative;
+	display: inline-block;	
+	margin: 0;
+	padding-left: 0;
+	padding-top: 26px;
+}
+
+.nav_item{	
+	list-style: none;
+	float: left;
+	margin: 0 5px;
+	color: #FFFfff;
+	line-height: 10px;
+}
+
+.nav_item_link{
+	font-size: 10px;	
+	text-transform: uppercase;
+	color: #FFFfff;
+}
+
+.nav_item_link:hover{
+	color: #2EAA91;
+}
+
+.nav-left{
+	margin-left: 140px;
+}
+
+.dot{
+	font-size: 10px;
+	color:#FFFfff;	
+}
+
+footer{
+	height: 42px;
+	background-color: #222222;	
+}
+
+footer div.content{
+	position: relative;
+	display: inline-block;	
+	left: 38px;
+	top: 3px;
+	color: #3C3C3C;
+	line-height: 12px;
+}
